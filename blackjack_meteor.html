@@ -1,0 +1,33 @@
+<head>
+  <title>blackjack_meteor</title>
+</head>
+
+<body>
+
+  {{> hello}}
+	<div class="container">
+	  <ul class="messages">
+	  	{{#each messages}}
+	  		{{> message}}
+	  	{{/each}}
+		<form class="message">
+	    <input type="text" name="text" placeholder="Enter message here..." />
+	  </form>	
+	  </ul>
+	  <ul class="dealer">asdf</ul>
+	  <ul class="main_player">
+	  	<button>Hit Me!</button>
+	  </ul>
+	</div>
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="message">
+	<li>
+		{{message}}
+	</li>
+</template>

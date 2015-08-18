@@ -1,0 +1,12 @@
+/* CSS declarations go here */
+.messages {
+	height: 200px;
+	width: 150px;
+	overflow: scroll;
+	list-style: none;
+}
+
+.container ul {
+	display: inline-block;
+	float: left;
+}
